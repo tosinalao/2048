@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.createElement('button');
     resetButton.textContent = 'Restart';
     resetButton.addEventListener('click', () => {
-      window.location.href = 'start.html';
+      window.location.href = 'index.html';
     });
 
     gameOverMessage.appendChild(resetButton);
