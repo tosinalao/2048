@@ -5,7 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #bbada0; /* Background color similar to the 2048 game */
 }
 
 .start-page {
@@ -13,16 +13,27 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #eee4da; /* Light background color for the card */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 36px;
+  color: #776e65; /* Game-like title color */
+}
+
+p {
+  font-size: 18px;
+  color: #776e65;
+  margin-bottom: 20px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #D2B48C;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #8f7a66; /* Button color similar to the 2048 tiles */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -31,5 +42,5 @@ button {
 }
 
 button:hover {
-  background-color: #E5D3B3;
+  background-color: #a39383; /* Button color on hover */
 }
